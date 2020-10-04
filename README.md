@@ -4,5 +4,5 @@
 # firebase init
 -- add your credentials to  proceed, once it is done, do the following
 
-8to deploy the code in your system*
+*to deploy the code in your system*
  # firebase deploy
