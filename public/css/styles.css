@@ -389,7 +389,10 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
-
+.tab { 
+            display: inline-block; 
+            margin-left: 10%; 
+        }
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -10089,7 +10092,7 @@ p.lead {
   }
 }
 .social-icons .social-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -10098,9 +10101,11 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin-right: 100%;
+  
 }
 .social-icons .social-icon:last-child {
+
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
@@ -10123,6 +10128,7 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+
 
 @media (min-width: 768px) {
   section.resume-section {
